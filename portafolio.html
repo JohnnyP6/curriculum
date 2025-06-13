@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio - Jonathan Peña</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Jonathan Peña</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#portafolio"
+                >Portafolio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#curriculum">Curriculum</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="bg-primary text-white text-center py-5">
+      <div class="container">
+        <h1 class="display-4">Hello world! Soy Jonathan Peña</h1>
+        <p class="lead">
+          Estudiante de desarrollo Fullstack en academia Desafio LATAM
+        </p>
+      </div>
+    </header>
+
+    <section id="portafolio" class="portafolio-seccion bg-light">
+      <div class="container">
+        <h2 class="text-center mb-5 display-5">Mis Trabajos de Diseño Web</h2>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-6 portafolio-item mb-2">
+            <div class="card h-100 shadow-sm border-primary p-1">
+              <img
+                src="/assets/img/landing page.png"
+                class="card-img-top"
+                alt="Pantallazo landing page"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Landing Page</h5>
+                <p class="card-text">
+                  Uno de los primeros proyectos. Práctica de las bases de HTML y
+                  CSS al construir una Landing Page de una tienda de guitarras
+                  ficticia.
+                </p>
+                <a
+                  href="https://johnnyp6.github.io/LandingPage/"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >Ver Proyecto</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-6 portafolio-item mb-2">
+            <div class="card h-100 shadow-sm border-primary p-1">
+              <img
+                src="/assets/img/iguana.png"
+                class="card-img-top"
+                alt="Pantallazo Iguana page"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Iguanas</h5>
+                <p class="card-text">
+                  Otro proyecto simple. Aplicar HTML y CSS usando flexbox para
+                  replicar una página a partir de una maqueta.
+                </p>
+                <a
+                  href="https://johnnyp6.github.io/Iguana/"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >Ver Proyecto</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-6 portafolio-item mb-2">
+            <div class="card h-100 shadow-sm border-primary p-1">
+              <img
+                src="/assets/img/cuppon.png"
+                class="card-img-top"
+                alt="Pantallazo cuppon"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Cuppon</h5>
+                <p class="card-text">
+                  Aplicacón de Bootstrap para replicar una página a partir de
+                  una maqueta.
+                </p>
+                <a
+                  href="https://johnnyp6.github.io/Cuppon/"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >Ver Proyecto</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-6 portafolio-item mb-2">
+            <div class="card h-100 shadow-sm border-primary p-1">
+              <img
+                src="/assets/img/olivia.png"
+                class="card-img-top"
+                alt="Pantallazo Olivia"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Practica de Git y Git Hub</h5>
+                <p class="card-text">
+                  En este proyecto prácticamos el fork de proyectos y la
+                  realización de commits al modificar elementos del repositorio
+                  entregado.
+                </p>
+                <a
+                  href="https://github.com/JohnnyP6/fdsw-github"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >Ver Repositorio</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="curriculum" class="py-5 bg-dark text-white text-center">
+      <div class="container">
+        <h2 class="mb-4">Curriculum</h2>
+        <p class="lead">
+          Si quieres saber mas sobre mi formación académica y experiencia
+          laboral, te invito a revisar mi curriculum.
+        </p>
+        <a href="/index.html" class="btn btn-light btn-lg" target="_blank"
+          >Ir al Curriculum</a
+        >
+        <div class="mt-4"></div>
+      </div>
+    </section>
+
+    <footer class="bg-light text-center py-3">
+      <div class="container">
+        <p>&copy; 2025 Jonathan Peña. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
